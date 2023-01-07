@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav {
+    background-color: violet;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: azure;
+    font-weight: 400;
+}
+
+nav ul {
+    margin-right: 60px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-one {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    margin-right: 100px;
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-two {
+    margin-top: 200px;
+    margin-right: 90px;
+}
+
+.btn-color {
+    margin-top: 15px;
+    color: tomato;
+    background-color: cadetblue;
+    border: none;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.h1-text {
+    margin-bottom: 20px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+}
+
+.p-tag {
+    margin-top: 220px;
+}
+
+.fa {
+    color: green;
+}
+
+.check-text {
+    margin-top: 20px;
+}
+
+.plans {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#plan-details {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.call-part {
+    text-align: left;
+    width: 50%;
+    margin-left: 325px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footer-part {
+    margin-top: 80px;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    background-color: black;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.footer-part input {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid silver;
+}
